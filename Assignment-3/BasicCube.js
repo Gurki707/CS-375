@@ -8,7 +8,7 @@
 class BasicCube {
     constructor(gl, vertexShader, fragmentShader) {
 
-        // let program = new ShaderProgram(gl, this, vertexShader, fragmentShader);
+        let program = new ShaderProgram(gl, this, vertexShader, fragmentShader);
 
         const vertices = new Float32Array([
             // Front face
